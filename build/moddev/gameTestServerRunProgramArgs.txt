@@ -1,0 +1,20 @@
+# Main Class
+cpw.mods.bootstraplauncher.BootstrapLauncher
+
+# NeoForge Run-Type Program Arguments
+--launchTarget
+forgegametestserveruserdev
+--gameDir
+.
+--fml.forgeVersion
+47.1.3
+--fml.mcVersion
+1.20.1
+--fml.forgeGroup
+net.minecraftforge
+--fml.mcpVersion
+20230612.114412
+
+# User Supplied Program Arguments
+--mixin.config
+gtceu.mixins.json

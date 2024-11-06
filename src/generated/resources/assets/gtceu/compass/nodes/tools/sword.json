@@ -1,0 +1,15 @@
+{
+  "button_texture": {
+    "type": "item",
+    "res": "gtceu:aluminium_sword"
+  },
+  "items": [
+    "#minecraft:swords"
+  ],
+  "page": "gtceu:tools/sword",
+  "position": [
+    -50,
+    200
+  ],
+  "section": "gtceu:tools"
+}

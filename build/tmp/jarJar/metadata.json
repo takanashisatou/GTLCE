@@ -1,0 +1,52 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "com.lowdragmc.ldlib",
+        "artifact": "ldlib-forge-1.20.1"
+      },
+      "version": {
+        "range": "[1.0.27.b,)",
+        "artifactVersion": "1.0.27.b"
+      },
+      "path": "META-INF/jarjar/ldlib-forge-1.20.1-1.0.27.b.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.tterrag.registrate",
+        "artifact": "Registrate"
+      },
+      "version": {
+        "range": "[MC1.20-1.3.3,)",
+        "artifactVersion": "MC1.20-1.3.3"
+      },
+      "path": "META-INF/jarjar/Registrate-MC1.20-1.3.3.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "dev.toma.configuration",
+        "artifact": "configuration-forge-1.20.1"
+      },
+      "version": {
+        "range": "[2.2.0,)",
+        "artifactVersion": "2.2.0"
+      },
+      "path": "META-INF/jarjar/configuration-forge-1.20.1-2.2.0.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "io.github.llamalad7",
+        "artifact": "mixinextras-forge"
+      },
+      "version": {
+        "range": "[0.2.0,)",
+        "artifactVersion": "0.2.0"
+      },
+      "path": "META-INF/jarjar/mixinextras-forge-0.2.0.jar",
+      "isObfuscated": false
+    }
+  ]
+}

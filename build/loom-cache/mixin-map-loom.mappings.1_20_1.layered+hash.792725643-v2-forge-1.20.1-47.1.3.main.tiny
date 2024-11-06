@@ -1,0 +1,22 @@
+v1	named	intermediary
+FIELD	com/gregtechceu/gtceu/core/mixins/LevelRendererMixin	Lnet/minecraft/client/Minecraft;	minecraft	f_109461_
+FIELD	com/gregtechceu/gtceu/core/mixins/LevelRendererMixin	Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;	destructionProgress	f_109409_
+FIELD	com/gregtechceu/gtceu/core/mixins/LevelRendererMixin	Lnet/minecraft/client/renderer/RenderBuffers;	renderBuffers	f_109464_
+FIELD	com/gregtechceu/gtceu/core/mixins/LevelRendererMixin	Lnet/minecraft/client/multiplayer/ClientLevel;	level	f_109465_
+FIELD	com/gregtechceu/gtceu/core/mixins/InventoryMixin	Lnet/minecraft/world/entity/player/Player;	player	f_35978_
+FIELD	com/gregtechceu/gtceu/core/mixins/RecipeManagerMixin	Ljava/util/Map;	recipes	f_44007_
+FIELD	com/gregtechceu/gtceu/core/mixins/BlockModelMixin	Ljava/lang/String;	name	f_111416_
+FIELD	com/gregtechceu/gtceu/core/mixins/MultiPlayerGameModeMixin	Lnet/minecraft/client/Minecraft;	minecraft	f_105189_
+FIELD	com/gregtechceu/gtceu/core/mixins/ServerChunkProviderMixin	Ljava/lang/Thread;	mainThread	f_8330_
+FIELD	com/gregtechceu/gtceu/core/mixins/ChunkMixin	Lnet/minecraft/world/level/Level;	level	f_62776_
+FIELD	com/gregtechceu/gtceu/core/mixins/LevelMixin	Z	isClientSide	f_46443_
+FIELD	com/gregtechceu/gtceu/core/mixins/LevelMixin	Ljava/lang/Thread;	thread	f_46423_
+METHOD	com/gregtechceu/gtceu/core/mixins/LevelRendererMixin	(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;Lnet/minecraft/world/phys/shapes/VoxelShape;DDDFFFF)V	renderShape	m_109782_
+METHOD	com/gregtechceu/gtceu/core/mixins/InventoryMixin	(I)Lnet/minecraft/world/item/ItemStack;	getItem	m_8020_
+METHOD	com/gregtechceu/gtceu/core/mixins/LivingEntityMixin	()Ljava/lang/Iterable;	getArmorSlots	m_6168_
+METHOD	com/gregtechceu/gtceu/core/mixins/LivingEntityMixin	(Lnet/minecraft/world/entity/EquipmentSlot;Lnet/minecraft/world/item/ItemStack;)V	setItemSlot	m_8061_
+METHOD	com/gregtechceu/gtceu/core/mixins/CreeperMixin	()V	ignite	m_32312_
+METHOD	com/gregtechceu/gtceu/core/mixins/ServerChunkProviderMixin	(J)Lnet/minecraft/server/level/ChunkHolder;	getVisibleChunkIfPresent	m_8364_
+METHOD	com/gregtechceu/gtceu/core/mixins/LevelMixin	(Lnet/minecraft/core/BlockPos;)Z	isLoaded	m_46749_
+METHOD	com/gregtechceu/gtceu/core/mixins/GuiGraphicsMixin	(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;IIII)V	renderItem	m_280405_
+METHOD	com/gregtechceu/gtceu/core/mixins/EntityMixin	()Lnet/minecraft/world/entity/EntityType;	getType	m_6095_

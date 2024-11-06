@@ -1,0 +1,21 @@
+com/gregtechceu/gtceu/core/mixins/LevelRendererMixin minecraft f_109461_
+com/gregtechceu/gtceu/core/mixins/LevelRendererMixin destructionProgress f_109409_
+com/gregtechceu/gtceu/core/mixins/LevelRendererMixin renderBuffers f_109464_
+com/gregtechceu/gtceu/core/mixins/LevelRendererMixin level f_109465_
+com/gregtechceu/gtceu/core/mixins/InventoryMixin player f_35978_
+com/gregtechceu/gtceu/core/mixins/RecipeManagerMixin recipes f_44007_
+com/gregtechceu/gtceu/core/mixins/BlockModelMixin name f_111416_
+com/gregtechceu/gtceu/core/mixins/MultiPlayerGameModeMixin minecraft f_105189_
+com/gregtechceu/gtceu/core/mixins/ServerChunkProviderMixin mainThread f_8330_
+com/gregtechceu/gtceu/core/mixins/ChunkMixin level f_62776_
+com/gregtechceu/gtceu/core/mixins/LevelMixin isClientSide f_46443_
+com/gregtechceu/gtceu/core/mixins/LevelMixin thread f_46423_
+com/gregtechceu/gtceu/core/mixins/LevelRendererMixin renderShape (Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;Lnet/minecraft/world/phys/shapes/VoxelShape;DDDFFFF)V m_109782_
+com/gregtechceu/gtceu/core/mixins/InventoryMixin getItem (I)Lnet/minecraft/world/item/ItemStack; m_8020_
+com/gregtechceu/gtceu/core/mixins/LivingEntityMixin getArmorSlots ()Ljava/lang/Iterable; m_6168_
+com/gregtechceu/gtceu/core/mixins/LivingEntityMixin setItemSlot (Lnet/minecraft/world/entity/EquipmentSlot;Lnet/minecraft/world/item/ItemStack;)V m_8061_
+com/gregtechceu/gtceu/core/mixins/CreeperMixin ignite ()V m_32312_
+com/gregtechceu/gtceu/core/mixins/ServerChunkProviderMixin getVisibleChunkIfPresent (J)Lnet/minecraft/server/level/ChunkHolder; m_8364_
+com/gregtechceu/gtceu/core/mixins/LevelMixin isLoaded (Lnet/minecraft/core/BlockPos;)Z m_46749_
+com/gregtechceu/gtceu/core/mixins/GuiGraphicsMixin renderItem (Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;IIII)V m_280405_
+com/gregtechceu/gtceu/core/mixins/EntityMixin getType ()Lnet/minecraft/world/entity/EntityType; m_6095_

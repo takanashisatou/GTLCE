@@ -1,0 +1,7 @@
+# All other changes require the primary team
+* @GregTechCEu/gregtech-modern-devs
+
+# Specific files requiring admin approval
+CODEOWNERS @GregTechCEu/admin
+LICENSE @GregTechCEu/admin
+README.md @GregTechCEu/admin
